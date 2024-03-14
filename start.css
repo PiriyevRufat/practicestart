@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(44, 62, 80);
+    width: 100%;
+    padding: 10px;
+}
+h1 {
+    margin-right: 125px;
+    font-size: 2em;
+    font-weight: bold;
+    
+}
+.col_12{
+    width: 100%;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+ul{
+    width: 300px;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+}
+li{
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    font-weight: 700;
+}
+a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+
+}
+.col_4{
+    width: 33.333%;
+}
+li #portfolio{
+    width: 85px;
+    background-color: #1abc9c;
+    border-radius: 5px;
+}
+.headercont{
+    text-align: center;
+    display: flex;
+    height: 86vh;
+    background-color :rgb(26, 188, 156);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+h2{
+    padding: 20px;
+    font-size: 70px;
+}
+img{
+    width: 240px;
+    height: 254px;
+}
+.star{
+    font-size: 35px;
+    position: relative;
+}
+.star::after{
+    position: absolute;
+       content: "";
+       height: 4px;
+       background-color: #fff;
+       width: 125px;
+       margin-left: 15px;
+       top: 50%;
+}
+.star::before{
+    position: absolute;
+       content: "";
+       height: 4px;
+       background-color: #fff;
+       width: 125px;
+       margin-right: 25px;
+       right: 78%;
+       top: 50%;
+}
+

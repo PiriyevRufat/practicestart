@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card{
+    position: relative;
+    width: 370px;
+    height: 500px;
+    margin: 0 auto;
+    border: 1px black solid;
+    border-radius: 12px;
+}
+.cardtop{
+    height: 105px;
+    background-color: blue;
+    text-align: center;
+    width: 100;
+    color: white;
+    border-top-right-radius:12px;
+    border-top-left-radius: 12px;
+}
+.cardbottom{
+    padding: 15px;
+    margin-top: 125px;
+    text-align: center;
+}
+img{
+    right: 40%;
+    bottom: -5%;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.socials{
+    width: 100px;
+    top: 25%;
+    left: 36%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
