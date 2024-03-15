@@ -170,12 +170,11 @@ padding: 25px;
     margin-top: 80px;
     font-size: 80px;
 }
-.inner:hover{
-    .plyusik {
-        display: block;
-        transition: 0.5s;
-        opacity: 0.8;
-    }
+.inner:hover .plyusik {
+    display: block;
+    transition: 0.7s;
+    opacity: 0.9;
+    
 }
 #about{
     color: #fff;
@@ -357,11 +356,9 @@ h4{
     color: black;
     background-color: #fff;
 }
-.superlink{
-    margin: 0 auto;
+.superlink{  
+    display: inline-block   ;
     color: #1abc9c;
     text-decoration: underline;
-    font-size: 1.25rem;
-    font-weight: 300;
 }
 
